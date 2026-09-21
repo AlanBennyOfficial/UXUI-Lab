@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alan Benny</title>
+ <style>
+    :root {
+        color-scheme: light dark;
+    }
+    body {
+        color: light-dark(#222222, #ffffff); /* First value is for light mode */
+        justify-content: center;
+        align-items: center;
+        height: 100vh;  
+        margin: 0;
+    }
+
+    /* Carousel Container & Smooth Faded Edges */
+    .tech-carousel {
+      /* overflow: hidden; */
+      padding: 20px 0;
+      background: rgba(255, 255, 255, 0.03);
+      border-block: 1px solid rgba(255, 255, 255, 0.1);
+      width: 100%;
+      mask-image: linear-gradient(to right, transparent, #000 150px, #000 calc(100% - 150px), transparent);
+      -webkit-mask-image: linear-gradient(to right, transparent, #000 150px, #000 calc(100% - 150px), transparent);
+    }
+
+    /* Sliding Track */
+    .track {
+      /* display: flex; */
+      width: max-content;
+      animation: scroll 8s linear infinite;
+    }
+
+    .tech-carousel:hover .track {
+      animation-play-state: paused;
+    }
+
+    .track img {
+      height: 8%; /* Controls icon row height */
+      object-fit: contain;
+    }
+
+    @keyframes scroll {
+      to { transform: translateX(-70%); }
+    }
+    .MyLinks{
+        text-align: center;
+    }
+  </style>
+    
+ </style>
+</head>
+<body>
+    <h1 align="center">Alan Benny</h1>
+    <div class="MyLinks">
+        <a href="http://www.github.com/alanbennyofficial">GitHub</a>
+        <a href="http://www.linkedin.com/in/alanbennyofficial">LinkedIn</a>
+        <a href="http://alanbennyofficial.github.io">Website</a>
+    </div>
+    
+
+    <br>
+    <br>
+    <h3>Penultimate year BCA (Honors) student specializing in Cloud Technology and DevOps.</h3>    
+    <br>
+
+    <!-- <div align="center">
+    <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=aws,html,css,bootstrap,androidstudio,django,grafana,obsidian,bash,bitbucket,c,markdown,linux,neovim,python,flask,supabase,tailwindcss,powershell,postman,latex,mysql,jenkins,java,figma,dotnet,arch,docker,azure,gcp,postgresql,windows,git&theme=dark&perline=15" alt="My Skills" /></a>
+    </div> -->
+
+    <div class="tech-carousel">
+        <div class="track">
+            <img src="https://skillicons.dev/icons?i=aws,html,css,bootstrap,androidstudio,django,grafana,obsidian,bash,bitbucket,c,markdown,linux,neovim,python,flask,supabase,tailwindcss,powershell,postman,latex,mysql,jenkins,java,figma,dotnet,arch,docker,azure,gcp,postgresql,windows,git&theme=dark&perline=34" alt="Tech Stack">
+            
+            
+        </div>
+    </div>
+
+
+    <ul>
+        <b>Soft Skills:</b>
+        <li>High Agency</li>
+        <li>Continous Improvement</li>
+        <li>Strong attention to detail</li>
+    </ul>
+
+    <footer align="center">
+        &copy; Alan Benny 2026
+    </footer>
+</body>
+</html>
