@@ -20,7 +20,7 @@
 7. [Palindrome](LabExamPrograms/07-palindrome.html)
 8. [Armstrong Number](LabExamPrograms/08-armstrong.html)
 9. [Fibonacci Series](LabExamPrograms/09-fibonacci.html)
-10. Factorial
+10. [Factorial](LabExamPrograms/10-factorial.html)
 11. [Tables in HTML](LabExamPrograms/11-time-table.html)
 
 
