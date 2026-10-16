@@ -18,7 +18,7 @@
 5. [Login page JS Program](LabExamPrograms/05-mouse-events.html)
 6. [ToDo List](LabExamPrograms/06-to-do-list.html)
 7. [Palindrome](LabExamPrograms/07-palindrome.html)
-8. Armstrong Number
+8. [Armstrong Number](LabExamPrograms/08-armstrong.html)
 9. Fibonacci Series
 10. Factorial
 11. [Tables in HTML](LabExamPrograms/11-time-table.html)
