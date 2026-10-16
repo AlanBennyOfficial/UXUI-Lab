@@ -19,7 +19,7 @@
 6. [ToDo List](LabExamPrograms/06-to-do-list.html)
 7. [Palindrome](LabExamPrograms/07-palindrome.html)
 8. [Armstrong Number](LabExamPrograms/08-armstrong.html)
-9. Fibonacci Series
+9. [Fibonacci Series](LabExamPrograms/09-fibonacci.html)
 10. Factorial
 11. [Tables in HTML](LabExamPrograms/11-time-table.html)
 

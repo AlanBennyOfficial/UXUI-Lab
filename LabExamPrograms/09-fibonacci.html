@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibonacci Series</title>
+    <script>
+        function fibonacciSeries() {
+            let n = parseInt(document.getElementById("number").value);
+            let result = document.getElementById("result");
+
+            // Input validiation (optional)
+            if (isNaN(n) || n <= 0) {
+                result.innerHTML = "Please enter a valid positive number.";
+                return;
+            }
+
+            if (n === 1) {
+                result.innerHTML = "0";
+                return;
+            }
+            let fib = [0, 1];
+            for (let i = 2; i < n; i++) {
+                fib[i] = fib[i - 1] + fib[i - 2];
+            }
+            result.innerHTML = fib.join(", ");
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Fibonacci Series</h1>
+    <label>Enter the no of terms:</label>
+    <input type="number" min="1" id="number">
+    <button type="button" onclick="fibonacciSeries()">Generate Series</button>
+    <p id="result" aria-live="polite"></p>
+</body>
+
+</html>
