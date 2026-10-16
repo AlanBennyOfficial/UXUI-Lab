@@ -22,3 +22,7 @@
 9. Fibonacci Series
 10. Factorial
 11. Tables in HTML
+
+<div align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=alanbennyofficial.UXUI-Lab&"  />
+</div>
