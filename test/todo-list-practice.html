@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do List</title>
+</head>
+<body>
+    <label for="text">Enter a task: </label>
+    <input type="text" name="task">
+    <button onclick="addTask()">Add Task</button>
+    <ul id="tlist"></ul>
+
+    <script>
+        function addTask(){
+            let task = document.getElementById("task").value.trim();
+
+            if(task == ""){
+                alert("Task cannot be empty.");
+                return;
+            }
+
+            let li = document.createElement("li");
+            li.innerHTML = `<span></span><button onclick="editTask(this)">Edit</button><button onclick="this.parentElement.remove()">Delete</button>`;
+
+            li.querySelector("span").textContent = task;
+            document.getElementById("tlist").appendChild(li);
+            document.getElementById("task").value = "";
+        }
+        function editTask(btn){
+            
+        }
+    </script>
+</body>
+</html>
